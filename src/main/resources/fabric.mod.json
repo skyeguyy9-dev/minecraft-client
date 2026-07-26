@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft_client_mod",
+  "version": "${version}",
+  "name": "Minecraft Client Mod",
+  "description": "Custom Minecraft 1.20.1 Fabric mod with advanced features",
+  "authors": ["skyeguyy9-dev"],
+  "contact": {
+    "homepage": "https://github.com/skyeguyy9-dev/minecraft-client",
+    "sources": "https://github.com/skyeguyy9-dev/minecraft-client"
+  },
+  "license": "MIT",
+  "icon": "assets/minecraft_client_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.skyeguyy9.minecraft.client.MinecraftClientMod"],
+    "client": ["com.skyeguyy9.minecraft.client.MinecraftClientModClient"]
+  },
+  "mixins": ["minecraft_client_mod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}

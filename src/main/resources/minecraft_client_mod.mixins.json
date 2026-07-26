@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.skyeguyy9.minecraft.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "MixinHudRendering"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
