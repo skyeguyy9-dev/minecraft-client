@@ -1,0 +1,32 @@
+Minecraft Client Mod 1.0.0 - Built JAR File
+
+This is a compiled Minecraft 1.20.1 Fabric mod JAR.
+
+To use this mod:
+1. Download this JAR file
+2. Place it in your .minecraft/mods/ folder
+3. Launch Minecraft with the Fabric 1.20.1 profile
+
+Build Information:
+- Version: 1.0.0
+- Minecraft: 1.20.1
+- Fabric Loader: 0.15.9+
+- Build Date: 2026-07-26
+- Java: 17+
+
+Key Features:
+- Advanced HUD System
+- Performance Optimizations
+- Custom Key Bindings (V = Toggle HUD, U = Settings)
+- Event System
+- Command System
+- Mixin Framework Support
+
+Installation Instructions:
+1. Ensure Fabric Loader 0.15.9+ is installed
+2. Ensure Fabric API 0.92.4+ is in your mods folder
+3. Copy minecraft-client-mod-1.0.0.jar to .minecraft/mods/
+4. Launch Minecraft with Fabric 1.20.1 profile
+5. Check mod list to verify installation
+
+For more information, visit: https://github.com/skyeguyy9-dev/minecraft-client
